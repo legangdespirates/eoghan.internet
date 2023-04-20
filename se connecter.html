@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        /* Styles de base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Styles pour l'en-tête */
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 1em;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Styles pour la section de connexion */
+.login {
+  margin: 2em auto;
+  max-width: 30em;
+  padding: 2em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+}
+
+.login h2 {
+  margin-bottom: 1em;
+}
+
+.login label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+  padding: 0.5em;
+  border-radius: 0.25em;
+  border: 1px solid #ccc;
+  width: 100%;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.login button {
+  padding: 0.5em 1em;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 0.25em;
+  font-size: 1em;
+}
+
+.login button:hover {
+  background-color: #666;
+}
+
+.login p {
+  margin-top: 1em;
+}
+
+.login a {
+  color: #333;
+  font-weight: bold
+}
+</style>
+
+    <title>Se connecter - Mon site web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Mon site web</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">À propos</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="login">
+        <h2>Se connecter</h2>
+        <form>
+          <label for="username">Nom d'utilisateur</label>
+          <input type="text" id="username" name="username" required>
+          <label for="password">Mot de passe</label>
+          <input type="password" id="password" name="password" required>
+          <button type="submit">Se connecter</button>
+        </form>
+        <p>Pas encore inscrit ? <a href="creation de compte.html">Créer un compte</a></p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Mon site web - 2023</p>
+    </footer>
+  </body>
+</html>
